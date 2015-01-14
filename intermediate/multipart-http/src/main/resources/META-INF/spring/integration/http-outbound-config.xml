@@ -18,7 +18,7 @@
 	<int:channel id="requestChannel"/>
 
 	<int-http:outbound-gateway request-channel="requestChannel" 
-					           url="http://localhost:8080/multipart-http/inboundAdapter.htm"
+					           url="http://localhost:9191/multipart-http/inboundAdapter.htm"
 					           http-method="POST"
 					           extract-request-payload="true"/>
 	

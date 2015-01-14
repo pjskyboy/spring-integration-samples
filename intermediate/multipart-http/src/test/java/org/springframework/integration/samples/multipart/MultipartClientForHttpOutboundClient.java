@@ -15,16 +15,15 @@
  */
 package org.springframework.integration.samples.multipart;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import org.apache.log4j.Logger;
-
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpStatus;
+
+import java.util.HashMap;
+import java.util.Map;
 /**
  * @author Oleg Zhurakousky
  *
@@ -32,7 +31,7 @@ import org.springframework.http.HttpStatus;
 public class MultipartClientForHttpOutboundClient {
 
 	private static Logger logger = Logger.getLogger(MultipartClientForHttpOutboundClient.class);
-	private static String resourcePath = "org/springframework/integration/samples/multipart/spring09_logo.png";
+	private static String resourcePath = "spring09_logo.png";
 
 	/**
 	 * @param args

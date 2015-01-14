@@ -34,8 +34,8 @@ import org.springframework.web.client.RestTemplate;
 public class MultipartRestClient {
 
 	private static Logger logger = Logger.getLogger(MultipartRestClient.class);
-	private static String uri = "http://localhost:8080/multipart-http/inboundAdapter.htm";
-	private static String resourcePath = "org/springframework/integration/samples/multipart/spring09_logo.png";
+	private static String uri = "http://localhost:9191/multipart-http/inboundAdapter.htm";
+	private static String resourcePath = "spring09_logo.png";
 
 	/**
 	 * @param args
